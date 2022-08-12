@@ -1,0 +1,49 @@
+
+.contentblock {
+  background-image: linear-gradient(to right, $gradient-03, $gradient-04),
+    url(./../../../assets/images/bg-pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: -34%;
+  background-position-y: 89%;
+  height: 100vh;
+  border-bottom-left-radius: 10rem;
+  border-top-right-radius: 10rem;
+  margin-top: 100px;
+
+  img {
+   width: 100%;
+  }
+
+  .title {
+    color: $neutral-01;
+  }
+
+  .sub-title {
+    color: $neutral-01;
+  }
+
+
+  @media screen and (min-width: 600px) {
+    img {
+      position: relative;
+      bottom: 50px;
+      width: auto;
+    }
+  
+    .title {
+      padding-top: 100px;
+    }
+  
+    .sub-title {
+      padding-top: 50px;
+    }
+
+  }
+}
+@media screen and (min-width: 600px) {
+  .contentblock{
+    height: 50vh;
+  }
+
+}

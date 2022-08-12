@@ -1,0 +1,43 @@
+
+  @import "./variables.scss";
+  @import "./../components/Header/Header.scss";
+  @import "./../components/Home/Home.scss";
+  @import "./../components/Contact/Contact.scss";
+  @import "./../components/About/About.scss";
+  @import "./../components/Presentation/Presentation.scss";
+  @import "./../components/Blocks/HeroBlock/HeroBlock.scss";
+  @import "./../components/Blocks/ContentBlock/ContentBlock.scss";
+  @import "./../components/Blocks/ImageBlock/ImageBlock.scss";
+  @import "./../components/Footer/Footer.scss";
+// Override default variables before the import
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+.btn {
+  &-primary {
+    color: $primary;
+    background-color: $neutral-01;
+    padding: 10px 30px;
+    border: 2px solid $neutral-01;
+    border-radius: 30px;
+    font-weight: 600;
+    &:hover {
+      color: $neutral-01;
+      background-color: transparent;
+      border: 2px solid $neutral-01;
+    }
+  }
+  &-secondary {
+    color: $neutral-01;
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: 2px solid $neutral-01;
+    &:hover {
+      color: $neutral-01;
+      background-color: transparent;
+      border: 2px solid $neutral-01;
+    }
+  }
+}

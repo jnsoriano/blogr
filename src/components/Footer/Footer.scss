@@ -1,0 +1,46 @@
+.footer {
+    background: $tertiary;
+    min-height: auto;
+    height: auto;
+    border-top-right-radius: 10rem;
+  
+    p{
+      padding-top: 10px;
+      color: $neutral-01;
+    }
+  
+    @media screen and (min-width: 600px) {
+      min-height: 200px;
+      height: 300px;
+    }
+  
+    .container {
+      padding-top: 50px;
+    }
+  
+  
+    p{
+      padding-top: 30px;
+  
+    }
+  
+    h5 {
+      color: $neutral-01;
+    }
+  
+  
+    .list-unstyled {
+      li {
+        margin-top:10px;
+  
+        a {
+          color: $neutral-01;
+          text-decoration: none;
+          :hover {
+            color: $neutral-02;
+          }
+        }
+      }
+    }
+  }
+  

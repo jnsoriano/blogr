@@ -1,0 +1,17 @@
+.contact{
+    background: $primary;
+
+
+    @media screen and (min-width: 600px) {
+    border-bottom-left-radius: 10rem;
+    }
+
+    &__details{
+        padding: 20px;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
